@@ -1,0 +1,88 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AIP_Master.master.cs" Inherits="AIP.AIP_Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        div.container {
+        width:100%;
+        }
+    </style>
+    <style type="text/css">
+        #form1 {
+            width: 1301px;
+            height: 819px;
+            background-color: #FFFFFF;
+            margin-left: 0px;
+            margin-bottom: 2px;
+        }
+         div.container{
+                    width : 100%;
+                }
+              
+        
+    </style>
+</head>
+<body style="height: 753px; width: 1311px">
+    <form id="form1" runat="server">
+      <div class="container">
+        <p>
+            <br />
+        <p>
+            <asp:Image ID="Image1" runat="server" style ="position:absolute; top: 13px; left: 5px; width: 1339px; height: 224px;" ImageUrl="~/IMAGE/bk3.jpg" />
+        </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p style="margin-left: 200px">
+             <asp:Image ID="logo" runat="server" style ="position:absolute; top: 15px; left: 6px; height: 222px; width: 179px;" ImageUrl="~/IMAGE/lo2.jpg" />
+            <asp:Label ID="Label1" runat="server" style ="position:absolute; left: 185px; width: 664px; top: 141px; height: 59px; margin-top: 2px;" Font-Bold="True" Font-Names="Lucida Handwriting" Font-Size="XX-Large" Text="UTO IDENTIFICATION PROCESS" ForeColor="White" Font-Italic="False" Font-Underline="True"></asp:Label>
+       
+
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+            
+           </div>
+    <div style="margin-left: 320px" >
+    &nbsp;&nbsp;&nbsp;
+    </div>
+        
+          
+        <p style="margin-left: 360px">
+            &nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p style="margin-left: 360px">
+            &nbsp;</p>
+        <p style="margin-left: 360px">
+            &nbsp;</p>
+        <p style="margin-left: 360px">
+            &nbsp;</p>
+        <p style="margin-left: 360px">
+            &nbsp;</p>
+        <p style="margin-left: 360px">
+            &nbsp;</p>
+        <p style="margin-left: 360px">
+            &nbsp;</p>
+        <p style="margin-left: 360px; text-align: justify;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+        </p>
+        <p style="margin-left: 360px">
+            &nbsp;</p>
+        <p style="margin-left: 360px">
+            &nbsp;&nbsp;</p>
+         
+           
+        <p style="margin-left: 360px">
+            &nbsp;</p>
+         
+           
+    </form>
+</body>
+</html>
